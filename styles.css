@@ -57,7 +57,7 @@ html{
             margin-right: 48px;
             margin-bottom: -20px;
         }  
-        .Me{
+    .Me{
             background-image: url("https://i.pinimg.com/originals/e2/8d/61/e28d61b0ce1b686bbd9c19b98912101f.gif");
             background-repeat: no-repeat;
             background-size: cover;
@@ -73,3 +73,29 @@ html{
             text-align: center;
             padding-top: 80px;
         }
+    .info{
+            float: left;
+            margin: auto;
+            width: 33.33%;
+            height: auto;
+            background: #eee;
+            border: green 1px solid;
+        }
+    .info-img{
+            width: 100%;
+        }
+    .info-title{
+            padding: 6px;
+            font-size: 22px;
+            color: orange;
+        }
+    .info-des{
+            padding: 6px;
+        }
+    .rotate{
+        transition: width 2s,height 2s; 
+        transform:6s;
+    }
+    .rotate:hover{
+        transform: rotate(360deg);
+    }
