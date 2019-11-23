@@ -57,21 +57,19 @@ html{
             margin-right: 48px;
             margin-bottom: -20px;
         }  
-    .login-btn{
-            top: 40px;
-            right: 90px;
-            position: absolute;
-            text-decoration: none;
-            color: white;
-            border: 2px solid transparent;
-            border-radius: 20px;
-            background-origin: border-box;
-            background-clip: content-box, border-box;
-            list-style: none;
-            text-decoration: none;
+        .Me{
+            background-image: url("https://i.pinimg.com/originals/e2/8d/61/e28d61b0ce1b686bbd9c19b98912101f.gif");
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* background-attachment: fixed;  */
+            background-color: black;
+            /* position: relative; */
+            /* top: 0;
+            bottom:0;
+            left: 0;
+            right: 0; */
+            height: 95vh;
+            width: 100%;
+            text-align: center;
+            padding-top: 80px;
         }
-    .login-btn span{
-            display: block;
-            padding: 8px 22px;
-        }
-    
