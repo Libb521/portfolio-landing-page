@@ -102,8 +102,8 @@ body{
             padding: 5%;
         }
     .info img{
-        width: 400px;
-        height: 200;
+        width: 600px;
+        height: 300;
         margin-top: 50px;
         padding: 0;
     }
@@ -115,7 +115,7 @@ body{
             text-align: center;
             padding-bottom: 10px;
             box-shadow: gray;
-            padding-top: 10vh;
+            padding-top: -5vh;
         
         }
         .info p{
@@ -123,15 +123,148 @@ body{
             font-size: 30px;
             /* margin: 30px 0 30px 40px; */
             line-height: 25px;
-            color: rgb(243, 8, 125);
+            color: white;
         }
-        #about{
+
+    .projects{
+        background-image: url("https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        color: rgb(58, 4, 4);
+        align-items: center;
+        padding-top: 10vh;
+        margin-top: 150px;
+        position: relative;
+        text-align: center;
+        font-size: 18px;
+        list-style: none;
+        padding-bottom: 40px;
+    }   
+    .projects ul{
+        text-align: left;
+    }
+    .projects h1{
+        font-weight: bolder;
+        text-decoration-line: underline;
+        font-size: 30px;
+    }
+    .projects h2{
+     text-decoration-line: underline;
+     text-align: left; 
+    }
+    .first{
+        border: #b2b1b1 1px solid;
+        background-color: black;
+        color: white;
+        margin-bottom: -5px;
+        margin-top: 15px;
+
+    }
+
+    #about{
+        background-image: url("https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        color: rgb(58, 4, 4);
+        align-items: center;
+        padding-top: 10vh;
+        margin-top: 150px;
+        position: relative;
+        text-align: center;
+        font-size: 18px;
+        list-style: none;
+        padding-bottom: 40px;
+        justify-content: space-around;
+    }
+
+    .interests{
+        background-image: url("https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        color: rgb(58, 4, 4);
+        padding-top: 10vh;
+        margin-top: 150px;
+        position: relative;
+        text-align: left;
+        font-size: 18px;
+        /* list-style: none; */
+        padding-bottom: 40px;
+    }
+    .interests h2{
+        font-weight: bolder;
+       text-decoration-line: underline;
+       font-size: 30px;
+    }
+    #contacts{
+        background-image: url("https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        color: rgb(58, 4, 4);
+        padding-top: 10vh;
+        margin-top: 150px;
+        position: relative;
+        text-align: left;
+        font-size: 18px;
+        /* list-style: none; */
+        padding-bottom: 40px;
+   }
+   #contacts h2{
+    font-weight: bolder;
+    text-decoration-line: underline;
+    font-size: 30px;
+   }
+   .one{
+       text-align: center;
+   }
+   .two ul{
+       text-align: left;
+   }
+   .three ul{
+       text-align: left;
+   }
+   .three ul li{
+       text-decoration-line: underline;
+       font-weight: bold;
+       color: black;
+   }
+   .exp p{
+       text-align: left;
+       font-weight: bold;
+   }
+   .exp h2{
+       text-decoration-line: underline;
+   }
+   .one p{
+       font-weight: bolder;
+       font-size: 25px;
+       color: black;
+   }
+   .one h1{
+       font-weight: bolder;
+       text-decoration-line: underline;
+       font-size: 30px;
+   }
+   .two h2{
+    text-decoration-line: underline;
+    text-align: left; 
+   }
+   .exp h2{
+    text-decoration-line: underline;
+    text-align: left;   
+   }
+   
+    }
+        /* #about{
             text-align: center;
             display: flex;
             flex-direction: column;
             left:50;
             right: 50;
-            justify-content: space-around;
+            
             margin-top: 150px;
             margin-bottom: 1%; 
             image-orientation: from-image;
@@ -181,4 +314,4 @@ body{
            color: #47020b;
            font-size: 17px;
        
-       }
+       } */
