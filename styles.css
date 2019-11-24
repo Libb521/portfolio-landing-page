@@ -1,5 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 html{
-    background: #000 url("https://bit.ly/2CJyIYw");
+    background: #000 url("https://i.pinimg.com/564x/b1/6c/5d/b16c5d03e128d78105bca6db71678c38.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -7,51 +11,62 @@ html{
     background-color: black;
     position: relative;
     }
-    nav ul li{
-        list-style: none;
-        margin: 0 20px;
-        color: #b2b1b1;
-        cursor: pointer;
-    }
-    nav{
-        width: 100%;
-        background-color:  rgb(12, 11, 12);
-        padding: 1%;
-        position: fixed;
-        top: 0;
-        right:0;
-        left: 0;
-        height: 4%;
-        z-index:1;
-        padding-right: 3%;
-    }
-     nav li{
-        display: inline;
-        justify-content: space-around;
-        padding: 20px;
-        list-style-type: none;
-        background-color: rgb(12, 11, 12);
-    }
-    
-    nav ul{
-        display: inline-flex;
-        margin: 1px;
-    }
-    
-    nav ul li a{
-        color: #ff9100;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 15px;
-    }
-        
-    nav>ul>li>a:hover {
+.navbar{
+    width: 100%;
+    background-color: rgb(12, 11, 12);
+    margin: auto;
+    overflow: hidden;
+    position: fixed;
+    height: 4%;
+    z-index: 1;
+    padding-right: 3%;
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navbar ul li{
+    display: inline;
+    justify-content: space-around;
+    list-style: none;
+    margin:0 20px;
+    color:  #b2b1b1;
+    cursor: pointer;
+    padding: 20px;
+    background-color: rgb(12, 11, 12);
+}
+.navbar ul li a{
+    color: rgb(236, 160, 18);
+    width: 200px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+   
+.navbar>ul>li>a:hover {
         box-shadow: 0 0 10px black, inset 0 0 1px black;
         background: white;
         color: rgb(236, 160, 18);
         } 
+.header{
+        width: 1850px;
+        height: 350px;
+        margin: auto;
+        } 
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    color: #926239;
+}
         
-    .logo img{
+.logo img{
             width: 50px;
             height: 60px;
             margin-top: -100px;
@@ -59,45 +74,51 @@ html{
             margin-bottom: -40px;
             padding-bottom: -100px;
         }  
-    .Me{
-            background-image: url("https://i.pinimg.com/originals/e2/8d/61/e28d61b0ce1b686bbd9c19b98912101f.gif");
+.Me{
+            background-image: url("https://i.pinimg.com/originals/18/2c/38/182c3877f717f3ecbbf379e36699aa0e.gif");
             background-repeat: no-repeat;
             background-size: cover;
-            /* background-attachment: fixed;  */
-            background-color: black;
-            /* position: relative; */
-            /* top: 0;
-            bottom:0;
-            left: 0;
-            right: 0; */
-            height: 95vh;
+            background-position: center;
+            height: 100vh;
             width: 100%;
             text-align: center;
             padding-top: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; 
         }
     .info{
-            align-content: center
+            align-items: center;
             margin: auto;
-            width: 33.33%;
-            height: auto;
-            background: #eee;
-            border: green 1px solid;
+            /* width: 30%;
+            height: 20%; */
+            background: transparent;
+            border: transparent;
+            left: 130px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-top: 500px;
+            padding: 5%;
         }
-    .info-img{
-            width: 100%;
+        .info h1{
+            font-size: 300%;
+            width: 640px;
+            margin-left:40px;
+            display: flex;
+            text-align: center;
+            padding-bottom: 30px;
+            box-shadow: gray;
+            padding-top: 30vh;
+        
         }
-    .info-title{
-            padding: 6px;
-            font-size: 22px;
-            color: orange;
+        .info p{
+            width: 650px;
+            font-size: 30px;
+            /* margin: 30px 0 30px 40px; */
+            line-height: 25px;
+            color: rgb(243, 8, 125);
         }
-    .info-des{
-            padding: 6px;
-        }
-    .rotate{
-        transition: width 2s,height 2s; 
-        transform:6s;
-    }
-    .rotate:hover{
-        transform: rotate(360deg);
-    }
+
