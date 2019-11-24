@@ -15,7 +15,7 @@ html{
     }
     nav{
         width: 100%;
-        background-color:  rgb(20, 6, 15);
+        background-color:  rgb(12, 11, 12);
         padding: 1%;
         position: fixed;
         top: 0;
@@ -30,7 +30,7 @@ html{
         justify-content: space-around;
         padding: 20px;
         list-style-type: none;
-        background-color: rgb(15, 5, 11);
+        background-color: rgb(12, 11, 12);
     }
     
     nav ul{
@@ -39,7 +39,7 @@ html{
     }
     
     nav ul li a{
-        color: red;
+        color: #ff9100;
         text-decoration: none;
         text-transform: uppercase;
         font-size: 15px;
@@ -47,15 +47,17 @@ html{
         
     nav>ul>li>a:hover {
         box-shadow: 0 0 10px black, inset 0 0 1px black;
-        background: rgb(173, 5, 41);
-        color: black;
+        background: white;
+        color: rgb(236, 160, 18);
         } 
         
     .logo img{
             width: 50px;
-            margin-top: -15px;
+            height: 60px;
+            margin-top: -100px;
             margin-right: 48px;
-            margin-bottom: -20px;
+            margin-bottom: -40px;
+            padding-bottom: -100px;
         }  
     .Me{
             background-image: url("https://i.pinimg.com/originals/e2/8d/61/e28d61b0ce1b686bbd9c19b98912101f.gif");
@@ -74,7 +76,7 @@ html{
             padding-top: 80px;
         }
     .info{
-            float: left;
+            align-content: center
             margin: auto;
             width: 33.33%;
             height: auto;
