@@ -131,15 +131,17 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        color: rgb(58, 4, 4);
+        color: white;
         align-items: center;
         padding-top: 10vh;
         margin-top: 150px;
         position: relative;
         text-align: center;
-        font-size: 18px;
+        font-size: 25px;
         list-style: none;
         padding-bottom: 40px;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
     }   
     .projects ul{
         text-align: left;
@@ -167,7 +169,7 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        color: rgb(58, 4, 4);
+        color: white;
         align-items: center;
         padding-top: 10vh;
         margin-top: 150px;
@@ -177,6 +179,8 @@ body{
         list-style: none;
         padding-bottom: 40px;
         justify-content: space-around;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
     }
 
     .interests{
@@ -184,7 +188,7 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        color: rgb(58, 4, 4);
+        color: white;
         padding-top: 10vh;
         margin-top: 150px;
         position: relative;
@@ -192,6 +196,8 @@ body{
         font-size: 18px;
         /* list-style: none; */
         padding-bottom: 40px;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
     }
     .interests h2{
         font-weight: bolder;
@@ -203,7 +209,7 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        color: rgb(58, 4, 4);
+        color: white;
         padding-top: 10vh;
         margin-top: 150px;
         position: relative;
@@ -211,6 +217,8 @@ body{
         font-size: 18px;
         /* list-style: none; */
         padding-bottom: 40px;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
    }
    #contacts h2{
     font-weight: bolder;
