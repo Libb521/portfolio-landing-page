@@ -4,7 +4,7 @@
 ## Description
 This is my personal portfio. This gives a short but a descriptive insight into who i am, what i have been able to achieve and my skills. It is meant to give an insight into who i am as a person, what i have been able to achieve and what i hope to achieve in future.
 
-## Live linkt to my project
+## Live link to my project
 https://libb521.github.io/portfolio-landing-page.github.io/
 
 ## Technologies Used
@@ -15,8 +15,6 @@ Here i have been able to use the two languages and one Version controlsystem.
 
 ## Support and contact details
 For any questions, feedback or input, kindly feel free to reach me at eotieno39@yahoo.com or phone number +254729595342.
-## To access this website click the link below
-https://libb521.github.io/portfolio-landing-page.github.io/
 
 ### License
 - Licensed under the  [MIT license](LICENSE).
